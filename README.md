@@ -1,4 +1,4 @@
-# TendaNo15
+# TiendaNo15
 * **Nombre:** Luis Eduardo Rochín Tan
 * **Tema:** Una Tienda
 * **Descripción:**
