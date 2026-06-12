@@ -6,7 +6,7 @@ Una página web que funciona con una base de datos de MongoDB Atlas que maneja l
 ## Entidades y Relación
 * **Productos:** Almacena los ítems disponibles con sus especificaciones (`nombre`, `precio`, `stock`).
 * **Pedidos:** Registra las solicitudes de compra hechas por los clientes (`cliente`, `producto_id`, `cantidad`).
-Pedidos depende de productos ya que sin un producto existente no se puede realizar un pedido, razón por la cual se optó por utilizar una relación de tipo referencia (ObjetoID).
+* Pedidos depende de productos ya que sin un producto existente no se puede realizar un pedido, razón por la cual se optó por utilizar una relación de tipo referencia (ObjetoID).
 ## Versión de MongoDB
 Se usó la versión 8.0.26 porque MongoDB Atlas no permite el uso de la versión 7.
 ## Cómo correr el Seed
